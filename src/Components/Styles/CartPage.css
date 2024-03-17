@@ -1,0 +1,95 @@
+/* Add your custom styles here */
+
+.container {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+       
+}
+
+/* .cart-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+} */
+
+.cart-table {
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.cart-table th,
+.cart-table td {
+    padding: 1rem;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
+}
+
+.cart-table th {
+    vertical-align: middle;
+    border-bottom: 2px solid #dee2e6;
+    font-family: 'Bakbak One';
+        font-size: 22px;
+}
+
+.cart-table tbody+tbody {
+    border-top: 2px solid #dee2e6;
+    
+}
+td {
+    font-family: 'Balsamiq Sans';
+        font-size: 18px;
+}
+
+.cart-total {
+    margin-top: 3rem;
+    padding: 1rem;
+    border-top: 2px solid #dee2e6;
+    border-bottom: 2px solid #dee2e6;
+    font-family: 'Balsamiq Sans';
+        font-size: 18px;
+}
+
+.cart-total p {
+    margin-bottom: 0.5rem;
+}
+
+.cart-empty {
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #f8d7da;
+    color: #721c24;
+    margin-bottom: 1rem;
+    font-family: 'Balsamiq Sans';
+        font-size: 18px;
+}
+
+.cart-empty p {
+    margin-bottom: 0;
+}
+
+.btn-checkout {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-checkout:hover {
+    background-color: #218838;
+}

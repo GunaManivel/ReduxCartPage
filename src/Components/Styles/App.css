@@ -1,0 +1,15 @@
+/* App.css */
+
+/* Define colors */
+:root {
+  --light-blue: #e9f1fa;
+  --bright-blue: #00abe4;
+  --white: #ffffff;
+}
+
+/* Apply colors to elements */
+body {
+  background-color: var(--light-blue);
+  color: var(--regal-blue);
+}
+

@@ -1,0 +1,90 @@
+/* ProductPage.css */
+
+/* Add your custom styles here */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* Ensure cards stack vertically */
+}
+
+.product-card {
+    margin: 20px;
+    width: 1000px;
+    height: 400px;
+    max-width: 1200px;
+    /* Set a maximum width for the card */
+    /* Add other styles as needed */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.product-card .card-body {
+    padding: 1.25rem;
+}
+
+.product-card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: 'Bakbak One';
+        font-size: 22px;
+}
+
+.product-card .card-text {
+    margin-bottom: 1rem;
+    font-family: 'Balsamiq Sans';
+        font-size: 18px;
+}
+
+.product-card .badge {
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+
+.product-card .btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+        font-family: 'Balsamiq Sans';
+        font-size: 18px;
+   
+}
+.product-card img {
+    margin-top: 25px;
+    width: 100%;
+    /* Set the image width to 100% of its container */
+    height: 330px;
+    /* Ensure aspect ratio is maintained */
+}
+.btnAdd {
+    background-color: var(--bright-blue);
+    color: var(--white);
+   
+}
+
+.btnAdd:hover {
+    background-color: #0056b3;
+}
+.btnQ{
+    background-color: #e9f1fa;
+    color: black;
+    font-weight: bolder;
+     
+}
+.btnQ:hover {
+    background-color: #00abe4;
+}
+.btnQt {
+    background-color: #e9f1fa;
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+
+}
